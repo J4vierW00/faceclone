@@ -1,0 +1,38 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+}
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.sub {
+  font-size: 15px;
+  margin-left: 25px;
+  color: #6d6266;
+  margin-left: 85px;
+}
+.card-container {
+  width: 500px;
+  height: 366px;
+}
+
+/*.prueba {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}*/
+
+.body {
+  background-color: salmon;
+  color: #fff;
+  height: 300px;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+}

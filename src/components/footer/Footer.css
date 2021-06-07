@@ -1,0 +1,11 @@
+.prueba-Cont {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  color: #6d6266;
+}

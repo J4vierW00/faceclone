@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Card from "./components/card/Card";
+import Footer from "./components/footer/Footer";
+import Btns from "./components/buttons/Btns";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="Conten">
+        <Card
+          title="Desarrollo Full Stack Español-Codificandolo"
+          subtitle="Publicacion de grupo de Jan Armando Negro 36 min"
+          imageAvatar="../src/gallo-face.jpg"
+          body="Por que hay mucha gente de un tal psaint?"
+        />
+        <Footer emoji="😆 14" texto="comentarios" />
+        <hr />
+        <Btns thumb="👍 Me gusta" cloud="💬 Comentar" />
+        <hr />
+      </div>
     </div>
   );
 }

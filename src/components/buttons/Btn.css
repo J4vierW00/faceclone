@@ -1,0 +1,26 @@
+.Btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.Buttons {
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn1 {
+  background-color: transparent;
+  padding: 15px 32px;
+  border: none;
+  font-size: 20px;
+  color: #6d6266;
+}
+
+.btn2 {
+  background-color: transparent;
+  padding: 15px 32px;
+  border: none;
+  font-size: 20px;
+  color: #6d6266;
+}
